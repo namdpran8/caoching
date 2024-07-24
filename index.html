@@ -2,14 +2,24 @@
 <html lang="en" class="theme_switchable">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="./images/f1.png" type="image/png">
   <title>Sanjay Commerce Classes</title>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css'>
 <link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
 <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'><link rel="stylesheet" href="./style.css">
-
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
    
@@ -33,7 +43,7 @@
  
  <section id="navigate">         
      <nav class="navbar navbar-expand-custom navbar-mainbg">
-             <a class="navbar-brand navbar-logo" href="index.html">Sanjay Commerce Classes</a>
+             <a class="navbar-brand navbar-logo" href="index.html"><img src="./images/f1.png" style="height: 35px; width:60px;" alt="icon"> Sanjay Commerce Classes</a>
              <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
              <i class="fas fa-bars text-white"></i>
              </button>
@@ -44,119 +54,143 @@
                          <a class="nav-link" href="javascript:void(0);"></i>Home</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link" href="javascript:void(0);"></i>About Us</a>
+                         <a class="nav-link" onclick="scrollToSection('about')" ></i>About Us</a>
+                     </li>
+                     
+                     <li class="nav-item">
+                         <a class="nav-link" onclick="scrollToSection('result')"></i>Results</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link" href="javascript:void(0);"></i>Teacher</a>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link" href="javascript:void(0);"></i>Results</a>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link" href="#footer"></i>Contact Us</a>
+                         <a class="nav-link" onclick="scrollToSection('footer')"></i>Contact Us</a>
                      </li>
                  </ul>
              </div>
          </nav>
  </section>
 
+ <section id ="about">
+
+  <div class="video-container">
+    <video autoplay muted loop>
+        <source src="./images/t3.mp4" type="video/mp4" />
+    </video>
+    <div id= "txt" class="caption" style="top: 40px; text-align: center;">
+      <h1>SANJAY COMMERCE CLASS </h1>
+      <h6>LETS UNLOCK THE SECRETS OF SUCCESS IN COMMERCE TOGETHER</h6>
+    </div>
+</div>
+
+  
+ </section>
+
+ <section id ="Teacher">
+        <div class="t1">
+          <h1>Prepare to excel !!!</h1>
+          <h2>new session beginning from 1st APRIL.</h2>
+        </div>
+        <div class ="t1 t2">
+          <div><img class = "pamphlet" src="./images/pa2.jpg" alt="pamphlet"></div>
+          <div>
+            <P id ="course">For <br> 11th , 12th <br> C.A , C.S <br> M. COM, M.B.A <br> B.COM, B.B.A</P>
+            <p class="classinfo"> Classes Available: <br> Offline and Home Tution</p>
+          </div>
+        </div>
+ </section>
+<h1>Previous Year Result</h1>
  <section id = "result">
+
    <div class="options">
-   <div class="option active" style="--optionBackground:url(https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg);">
+   <div class="option active" style="--optionBackground:url(./images/r1.jpg);">
       <div class="shadow"></div>
       <div class="label">
-         <div class="icon">
-            <i class="fas fa-walking"></i>
-         </div>
-         <div class="info">
-            <div class="main">Blonkisoaz</div>
-            <div class="sub">Omuke trughte a otufta</div>
-         </div>
+      
       </div>
    </div>
-   <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/8b69cdde47aa952e4176b4200052abf4/tumblr_o51p7mFFF21qho82wo1_1280.jpg);">
-      <div class="shadow"></div>
-      <div class="label">
-         <div class="icon">
-            <i class="fas fa-snowflake"></i>
-         </div>
-         <div class="info">
-            <div class="main">Oretemauw</div>
-            <div class="sub">Omuke trughte a otufta</div>
-         </div>
-      </div>
+   <div class="option" style="--optionBackground:url(./images/r2.jpg);">
+     
    </div>
-   <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/5af3f8303456e376ceda1517553ba786/tumblr_o4986gakjh1qho82wo1_1280.jpg);">
-      <div class="shadow"></div>
-      <div class="label">
-         <div class="icon">
-            <i class="fas fa-tree"></i>
-         </div>
-         <div class="info">
-            <div class="main">Iteresuselle</div>
-            <div class="sub">Omuke trughte a otufta</div>
-         </div>
-      </div>
+   <div class="option" style="--optionBackground:url(./images/r3.jpg);">
+
+  </div>
+   <div class="option" style="--optionBackground:url(./images/r4.jpg);">
+  
    </div>
-   <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg);">
-      <div class="shadow"></div>
-      <div class="label">
-         <div class="icon">
-            <i class="fas fa-tint"></i>
-         </div>
-         <div class="info">
-            <div class="main">Idiefe</div>
-            <div class="sub">Omuke trughte a otufta</div>
-         </div>
-      </div>
+   <div class="option" style="--optionBackground:url(./images/r5.jpg);">
+
    </div>
-   <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/f19901f50b79604839ca761cd6d74748/tumblr_o65rohhkQL1qho82wo1_1280.jpg);">
-      <div class="shadow"></div>
-      <div class="label">
-         <div class="icon">
-            <i class="fas fa-sun"></i>
-         </div>
-         <div class="info">
-            <div class="main">Inatethi</div>
-            <div class="sub">Omuke trughte a otufta</div>
-         </div>
-      </div>
-   </div>
+   <div class="option" style="--optionBackground:url(./images/r6.jpg);">
+
+ </div>
+ <div class="option" style="--optionBackground:url(./images/r7.jpg);">
+
+</div>
 </div>
 </section>
 
 
 <section id="foot">            
    <footer id="footer">
+
+
+<div class="formcss">
+  <div class="">
+    <h1>Contact Us</h1>
+    <h6>Fill up the form below to send us a message.</h6>
+    <form action="https://api.web3forms.com/submit" method="POST" id="form" >
+      <input type="hidden" name="access_key" value="5d38c96d-7498-4796-9044-e78f04929bf5">
+      <input type="hidden" name="subject" value="New Submission from Contact Us through website">
+      <input type="checkbox" name="botcheck" id="" style="display: none;" />
+      <div class="">
+        <label for="name" class="">Full Name</label>
+        <input class="input" type="text" name="name" id="name" placeholder="Pranshu Namdeo" required >
+      </div>
+      <div class="">
+        <label for="email" class="">Email Address</label>
+        <input class="input"type="email" name="email" id="email" placeholder="email@gmail.com" required >
+      </div>
+      <div class="">
+        <label for="phone" class="">Phone Number</label>
+        <input class="input" type="text" name="phone" id="phone" placeholder="+91-654987321" required >
+      </div>
+      <div class="">
+        <label for="message" class="">Your Message</label>
+        <textarea rows="4" name="message" id="message" placeholder="Your Message" ></textarea>
+      </div>
+      <div class="">
+        <button type="submit" class="submit">Send Message</button>
+      </div>
+      <p  id="response"></p>
+    </form>
+    </div>
+
+    </div>
+
+    
+    <div>
        <div class="col col1">
-         <h2>Sanjay Commerce Coaching  & <br> Hometution</h2>
+         <h2>Sanjay Commerce  <br>Coaching & Hometution</h2>
          <a herf =tel:9300782166><i class="fa-solid fa-phone"></i>9300782166   </a><a herf =tel:7691904697><i class="fa-solid fa-phone"></i>7691904697</a>
          <h6>E-8, Venketesh Nagar, <br> Environment Housing Society, <br> Door Sanchar Colony, <br> Bharat Nagar, Bhopal, <br> Madhya Pradesh 462039</h6>
-         <div class="social">
-           <a href="https://www.instagram.com/sanjay_commerce_classes?igsh=Mm5rbGw1YjMweGs0"><i class="fa-brands fa-instagram"></i></a>
-         </div>
-         <p style="color: #818181; font-size: smaller">2024 © All Rights Reserved</p>
-       </div>
-       <div>
-     
-       </div>
-       <div class=map>
+         <div class=map>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.3246224170534!2d77.43188377532643!3d23.194837409877696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4354c86129f7%3A0x7944ae6b4f558411!2sSanjay%20Commerce%20Classes!5e0!3m2!1sen!2sin!4v1721481607395!5m2!1sen!2sin"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
        </div>
-       <div class="backdrop"></div>
+       
+     </div> 
+   
+
      </footer>
 </section>
 
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-
   <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
   <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
   <script src="./script.js"></script>
+  <script src="./form.js"></script>
   <script src="./blob.js"></script>
   <script src="./scroll.js"></script>
-  <script src="https://kit.fontawesome.com/4769666214.js" crossorigin="anonymous"></script>
-  
+  <script src="./server.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
