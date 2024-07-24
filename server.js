@@ -27,7 +27,7 @@ form.addEventListener("submit", function (e) {
         result.classList.add("text-green-500");
       } else {
         console.log(response);
-        result.innerHTML = json.message;
+        result.innerHTML = "Successfully recieved the contact information";
         result.classList.remove("text-gray-500");
         result.classList.add("text-red-500");
       }
