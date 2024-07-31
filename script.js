@@ -27,6 +27,8 @@ function test(){
 			"width": activeWidthNewAnimWidth + "px"
 		});
 	});
+
+	
 }
 $(document).ready(function(){
 	setTimeout(function(){ test(); });
